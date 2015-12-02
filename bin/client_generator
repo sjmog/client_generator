@@ -2,5 +2,4 @@
 
 require 'client_generator'
 
-generator = ClientGenerator::Generator.new
-generator.generate
+ClientGenerator::Interface.start(ARGV)

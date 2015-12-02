@@ -1,4 +1,4 @@
-require 'spec_helper'
+require 'client_generator/generator'
 
 describe ClientGenerator::Generator do
   subject(:generator) { described_class.new }

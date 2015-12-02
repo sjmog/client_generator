@@ -1,10 +1,6 @@
-require "client_generator/version"
+require 'client_generator/helpers'
+require 'client_generator/version'
+require 'thor'
 
 module ClientGenerator
-  class Generator
-    def generate
-      p "Generating..."
-      true
-    end
-  end
 end
