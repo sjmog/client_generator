@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'client_generator'
+
+generator = ClientGenerator::Generator.new
+generator.generate
